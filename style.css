@@ -7,3 +7,7 @@ fieldset{
 fieldset{
   display:inline-block;
 }
+textarea{
+  height:80%;
+  width: 50%;
+}
