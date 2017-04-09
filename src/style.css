@@ -1,0 +1,13 @@
+label{
+  display:block;
+}
+fieldset{
+  display:block;
+}
+fieldset{
+  display:inline-block;
+}
+textarea{
+  height:80%;
+  width: 50%;
+}

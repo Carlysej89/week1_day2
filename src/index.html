@@ -1,0 +1,103 @@
+<!DOCTYPE>
+<html>
+ <head lang='en'>
+  <meta charset='utf-8'>
+  <title>Fill out form</title>
+  <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet'>
+  <link href='style.css' rel='stylesheet'>
+</head>
+  <body>
+    <form action='http://requestb.in/w464ldw4' method='post'>
+      <fieldset class='form-group'>
+        <legend>Basic Info</legend>
+
+        <aside>
+          <label for='fullname-input'>Full Name</label>
+          <input type='text' class='form-control' name='fullname' id='fullname-input' required>
+        </aside>
+        <aside>
+          <label for='ProfilePicture-input'>Profile Picture</label>
+          <input type='file' name='form-data' id='ProfilePicture-input'required>
+        </aside>
+
+
+        <aside>
+          <label for='email'>Email Address</label>
+          <input type='email' name='email' id='email' required>
+        </aside>
+
+        <aside>
+          Side:
+          <label><input type='radio' name='side' value='light' >Light</label>
+          <label><input type='radio' name='side' value='Dark'>Dark</label>
+        </aside>
+        <aside>
+          <label for='originstory-input'>Origin Story</label>
+          <textarea name='Origin story' class='extended-input' id='originstory-input' required></textarea>
+        </aside>
+
+
+
+      </fieldset>
+
+      <fieldset>
+        <legend>Abilities</legend>
+        <aside>
+          <h3>Light Saber Color</h3>
+          <!--'select color' should be shown first-->
+          <label for='LightSaber-color'></label>
+          <select name='Lightsaber-color'>
+            <option value=''>Select color</option>
+            <option value='Blue'>Blue</option>
+            <option value='Red'>Red</option>
+            <option value='Green'>Green</option>
+            <option value='Purple'>Purple</option>
+          </select>
+        </aside>
+
+        <aside>
+          <label for='objects'>How many objects can you levitate at once?</label>
+          <input type='numbers' name='objects' id='objects' min='1' max='10'>
+        </aside>
+
+        <aside>
+          Pilot Experience:
+          <label><input type="checkbox" name=id="speeder" value="speeder">Speeder</label>
+          <label><input type="checkbox" name=id="cbox2" value="transport">Transport</label>
+          <label><input type="checkbox" name=id="cbox3" value="third_checkbox">X-Wing</label>
+          <label><input type="checkbox" name=id="cbox4" value="fourth_checkbox">TIE fighter</label>
+          <label><input type="checkbox" name=id="cbox5" value="fifth_checkbox">Starship</label>
+          <label><input type="checkbox" name=id="cbox6" value="sixth_checkbox">Bantha</label>
+        </aside>
+      </fieldset>
+
+      <fieldset>
+        <legend>Application Info</legend>
+        <aside>
+          Desired Mentor
+          <label for='Mentor-input'></label>
+          <input type='text' name='mentor name' id='mentor-input' placeholder='Yoda'>
+        </aside>
+        <aside>
+          Application Date
+          <label for='date-input'></label>
+          <input type='date' placeholder='MM/DD/YYYY'>
+        </aside>
+        <aside>
+          Application Password
+          <label for='password-input'></label>
+          <input type='password'>
+        </aside>
+        <aside>
+          <label for='darkside-input'>How do you get to the dark side?</label>
+          <textarea name='dark side' id='darkside-input'></textarea>
+        </aside>
+
+        <aside>
+          <button type='start over'>start over</button>
+          <button type='apply'>Apply</button>
+        </aside>
+      </form>
+    </fieldset>
+  </body>
+</html>
