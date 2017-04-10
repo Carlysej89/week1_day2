@@ -40,7 +40,7 @@
 
       </fieldset>
 
-      <fieldset>
+      <fieldset class='form-group'>
         <legend>Abilities</legend>
         <aside>
           <h3>Light Saber Color</h3>
@@ -63,15 +63,15 @@
         <aside>
           Pilot Experience:
           <label><input type="checkbox" name=id="speeder" value="speeder">Speeder</label>
-          <label><input type="checkbox" name=id="cbox2" value="transport">Transport</label>
-          <label><input type="checkbox" name=id="cbox3" value="third_checkbox">X-Wing</label>
-          <label><input type="checkbox" name=id="cbox4" value="fourth_checkbox">TIE fighter</label>
-          <label><input type="checkbox" name=id="cbox5" value="fifth_checkbox">Starship</label>
-          <label><input type="checkbox" name=id="cbox6" value="sixth_checkbox">Bantha</label>
+          <label><input type="checkbox" name=id="transport" value="transport">Transport</label>
+          <label><input type="checkbox" name=id="x-wing" value="third_checkbox">X-Wing</label>
+          <label><input type="checkbox" name=id="tie-fighter" value="fourth_checkbox">TIE fighter</label>
+          <label><input type="checkbox" name=id="starship" value="fifth_checkbox">Starship</label>
+          <label><input type="checkbox" name=id="bantha" value="sixth_checkbox">Bantha</label>
         </aside>
       </fieldset>
 
-      <fieldset>
+      <fieldset class='form-group'>
         <legend>Application Info</legend>
         <aside>
           Desired Mentor
@@ -80,13 +80,13 @@
         </aside>
         <aside>
           Application Date
-          <label for='date-input'></label>
-          <input type='date' placeholder='MM/DD/YYYY'>
+          <label for='date'></label>
+          <input type='date' name='date' placeholder='MM/DD/YYYY'>
         </aside>
         <aside>
           Application Password
           <label for='password-input'></label>
-          <input type='password'>
+          <input type='password' name='password'>
         </aside>
         <aside>
           <label for='darkside-input'>How do you get to the dark side?</label>
@@ -94,8 +94,8 @@
         </aside>
 
         <aside>
-          <button type='start over'>start over</button>
-          <button type='apply'>Apply</button>
+          <button type='reset' class='btn btn-default' name='reset'>Start Over</button>
+          <button type='submit' class='btn btn-default' name='submit'>Apply</button>
         </aside>
       </form>
     </fieldset>
